@@ -70,12 +70,14 @@
 @media screen and (max-width:768px){
 
     .hidden-on-mobile{
-        text-align:center;
         text-decoration: none;
         border: 1px solid gray;
         height: 40px;
         background-color: #CCFFFF;
-        vertical-align: center;
+        text-align:center;
+        clear:both;
+       
+
 
 }
 h1{
@@ -83,7 +85,16 @@ h1{
 }
 ul{
     list-style: none;
+
+
+}
+li{
+    border:1px solid gray;
+    background-color:#CCCCCC;
+    height:40px;
+    margin-bottom: 8px;
     text-align: center;
+
 }
     body {
         width: 80%;
@@ -97,5 +108,16 @@ ul{
         height: 224px;
         display: block;
         margin: auto;
+    }
+    .main {
+        float: left;
+        width: 60%;
+
+    }
+
+    .sub-section {
+        float: left;
+        width: 35%;
+        font-style: italic;
     }
 }
