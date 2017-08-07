@@ -15,6 +15,7 @@ ul{
 }
 li {
     display:inline-block;
+    padding:10px;
 }
 .nav-links{
     overflow: auto;
@@ -25,7 +26,22 @@ li {
     height:385px;
     display: block;
     margin: auto;
+
 }
 body {
-    margin-inside: 0px auto;
+    display:block;
+
+}
+.main{
+    float:left;
+    width:65%;
+
+}
+.sub-section{
+    float:left;
+    width:35%;
+    font-style: italic;
+}
+@media screen and(min-width:768px){
+    .alert-info
 }
