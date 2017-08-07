@@ -6,50 +6,81 @@
 /*sub-section*/
 /*id-main*/
 /*social-media-links*/
+
+/* This code is for a regular web-page */
+@media screen and (min-width:768px) {
+    h1 {
+        float: left;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        float: right;
+        padding-left: 10px;
+    }
+
+    .nav-links {
+        overflow: auto;
+    }
+
+    .header-img {
+        clear: both;
+        width: 890px;
+        height: 385px;
+        display: block;
+        margin: auto;
+
+    }
+
+    body {
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto;
+
+    }
+
+    .main {
+        float: left;
+        width: 60%;
+
+    }
+
+    .sub-section {
+        float: right;
+        width: 35%;
+        font-style: italic;
+    }
+
+    @media screen and (min-width: 768px) {
+        .alert-info {
+            display: none;
+        }
+    }
+
+    footer {
+        clear: both
+    }
+}
+
+/*This code will size the webpage for mobile devices*/
+@media screen and (max-width:768px){
+
+    .hidden-on-mobile{
+        text-align:center;
+        text-decoration: none;
+
+}
 h1{
-    float:left;
+    text-align: center;
 }
 ul{
     list-style: none;
+    text-align: center;
 }
-li {
-    display:inline-block;
-    float:right;
-    padding-left:10px;
-}
-.nav-links{
-    overflow: auto;
-}
-.header-img{
-    clear:both;
-    width:890px;
-    height:385px;
-    display: block;
-    margin: auto;
-
-}
-body {
-    width: 80%;
-    max-width: 960px;
-    margin: 0 auto;
 
 
-}
-.main{
-    float:left;
-    width:60%;
-
-}
-.sub-section{
-    float:right;
-    width:35%;
-    font-style: italic;
-}
-@media screen and(max-width:768px){
-    .alert-info, hidden-on-mobile {
-
-}
-}
-footer{
-    clear:both
 }
