@@ -72,6 +72,10 @@
     .hidden-on-mobile{
         text-align:center;
         text-decoration: none;
+        border: 1px solid gray;
+        height: 40px;
+        background-color: #CCFFFF;
+        vertical-align: center;
 
 }
 h1{
@@ -81,6 +85,17 @@ ul{
     list-style: none;
     text-align: center;
 }
+    body {
+        width: 80%;
+        max-width: 360px;
+        margin: 0 auto;
 
-
+}
+    .header-img {
+        clear: both;
+        width: 339px;
+        height: 224px;
+        display: block;
+        margin: auto;
+    }
 }
