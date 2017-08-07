@@ -6,4 +6,22 @@
 /*sub-section*/
 /*id-main*/
 /*social-media-links*/
-.
+h1{
+    float:left;
+}
+ul{
+    list-style: none;
+    float:right;
+}
+li {
+    display:inline-block;
+}
+.nav-links{
+    overflow: auto;
+}
+.header-img{
+    clear:both;
+    width:890px;
+    height:385px;
+
+}
