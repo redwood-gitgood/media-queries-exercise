@@ -11,11 +11,11 @@ h1{
 }
 ul{
     list-style: none;
-    float:right;
 }
 li {
     display:inline-block;
-    padding:10px;
+    float:right;
+    padding-left:10px;
 }
 .nav-links{
     overflow: auto;
@@ -29,19 +29,27 @@ li {
 
 }
 body {
-    display:block;
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+
 
 }
 .main{
     float:left;
-    width:65%;
+    width:60%;
 
 }
 .sub-section{
-    float:left;
+    float:right;
     width:35%;
     font-style: italic;
 }
-@media screen and(min-width:768px){
-    .alert-info
+@media screen and(max-width:768px){
+    .alert-info, hidden-on-mobile {
+
+}
+}
+footer{
+    clear:both
 }
