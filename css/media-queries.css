@@ -23,5 +23,9 @@ li {
     clear:both;
     width:890px;
     height:385px;
-
+    display: block;
+    margin: auto;
+}
+body {
+    margin-inside: 0px auto;
 }
