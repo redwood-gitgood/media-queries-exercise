@@ -27,7 +27,9 @@
     }
 
     .nav-links {
-        overflow: auto;
+        float: right;
+        top: 80px;
+
     }
 
     .header-img img {
