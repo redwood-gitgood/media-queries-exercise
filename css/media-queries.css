@@ -22,13 +22,14 @@
     li {
         display: inline-block;
         padding-left: 10px;
-        float:right;
+        float:left;
 
     }
 
     .nav-links {
         float: right;
-        top: 80px;
+        margin-top: 55px;
+        padding-right:2%;
 
     }
 
@@ -50,6 +51,7 @@
         float: left;
         width: 60%;
         margin-bottom:30%;
+
 
     }
 
@@ -104,8 +106,6 @@ h1{
 ul{
     list-style: none;
     vertical-align: center;
-
-
 
 }
 .nav-links{
