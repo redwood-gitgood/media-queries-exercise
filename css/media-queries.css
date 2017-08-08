@@ -11,6 +11,8 @@
 @media screen and (min-width:768px) {
     h1 {
         float: left;
+        margin-left:2%;
+        font-size:50px;
     }
 
     ul {
@@ -19,18 +21,19 @@
 
     li {
         display: inline-block;
-        float: right;
         padding-left: 10px;
+        float:right;
+
     }
 
     .nav-links {
         overflow: auto;
     }
 
-    .header-img {
+    .header-img img {
         clear: both;
-        width: 890px;
-        height: 385px;
+        width: 96%;
+        height: auto;
         display: block;
         margin: auto;
 
@@ -44,6 +47,7 @@
     .main {
         float: left;
         width: 60%;
+        margin-bottom:30%;
 
     }
 
@@ -60,7 +64,8 @@
     }
 
     footer {
-        clear: both
+        clear:left;
+        margin-bottom:10%;
     }
 }
 
