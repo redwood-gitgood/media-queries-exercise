@@ -75,13 +75,20 @@
         background-color: #CCFFFF;
         text-align:center;
         clear:both;
+        margin-right:15px;
 
 
 
 
-}
+
+    }
 h1{
     text-align: center;
+    margin-right:15px;
+    font-size:50px;
+
+
+
 
 }
 ul{
@@ -89,9 +96,10 @@ ul{
     vertical-align: center;
 
 
+
 }
 .nav-links{
-    padding-left: 0px;
+    padding-left: 0;
 }
 li{
     border:1px solid gray;
@@ -99,6 +107,8 @@ li{
     line-height:40px;
     margin-bottom: 8px;
     text-align: center;
+    margin-right:15px;
+
 
 }
     body {
@@ -109,9 +119,10 @@ li{
 }
     .header-img img {
         clear: both;
-        width: 100%;
+        width: 97%;
         height: auto;
         display: block;
+
     }
     .main {
         clear:both;
@@ -128,5 +139,6 @@ li{
     footer{
         clear: both;
         margin-top: 40px;
+
     }
 }
